@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TheBasicsActivity!</string>
+    <string name="app_name">TheBasics</string>
+    <string name="knop1">Tutorial 1</string>
+    <string name="knop2">Tutorial 2</string>
+    <string name="tutorial1">Tutorial 1</string>
+    <string name="help">TEST</string>
+    <string name="radio">Radio Buttons</string>
+    <string name="list">List View</string>
+    <string name="button">Button </string>
+    <string name="TEXT">TEXT HERE</string>
+	<string name="gravity">Gravity</string>
+    <string name="center">Center</string>
+    <string name="style">Style</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="italics">Italics</string>
+    <string name="bold">Bold</string>
+    <string name="normal">Normal</string>
+    <string name="ok">OK</string>
+    <string name="enter">Enter something and click OK</string>
+    <string name="sweet">TEXT</string>
+    <string name="wall">Wallpaper</string>
+    <string name="display">display</string>
+    <string name="setWall">Set wallpaper</string>
+    
+</resources>

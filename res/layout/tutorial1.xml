@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="" >
+
+        <requestFocus />
+    </EditText>
+    
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gravity" android:layout_weight="50" android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/style" android:layout_weight="50" android:gravity="center"/>
+    </LinearLayout>
+
+    
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    <RadioGroup 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	android:gravity="center" 
+    	android:layout_weight="50">
+          
+    <RadioButton
+        android:id="@+id/rbLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/left"
+        android:paddingLeft="70dp"/>
+    
+	<RadioButton
+        android:id="@+id/rbCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/center" 
+        android:paddingLeft="70dp"/>
+	
+	<RadioButton
+        android:id="@+id/rbRight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/right" 
+        android:paddingLeft="70dp"/>
+	
+	</RadioGroup>
+	
+	
+	
+	<RadioGroup 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" 
+    	android:gravity="center" 
+    	android:layout_weight="50">
+	
+	<RadioButton
+        android:id="@+id/rbNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal" 
+        android:paddingLeft="70dp"/>
+	
+	<RadioButton
+        android:id="@+id/rbBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bold" 
+        android:paddingLeft="70dp"/>
+	
+	<RadioButton
+        android:id="@+id/rbItalics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/italics" 
+        android:paddingLeft="70dp"/>  
+        
+	</RadioGroup>
+	</LinearLayout>
+    
+    
+    
+    <TextView
+        android:id="@+id/tvGetInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:textSize="20dp" 
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+</LinearLayout>
